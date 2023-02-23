@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <EditText
+        android:id="@+id/editTxt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Edit Text"
+        android:textSize="16dp"
+        android:imeOptions="actionGo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTxt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Edit Text"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/editTxt_1"
+        app:layout_constraintStart_toStartOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTxt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text"
+        android:inputType="datetime"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTxt_2">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTxt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text"
+        android:inputType="textEmailAddress"
+        android:textSize="16dp"
+        android:imeOptions="actionDone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTxt_3">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" change this  ->"
+        app:layout_constraintStart_toEndOf="@id/editTxt_1"
+        android:padding="12dp"
+        android:paddingStart="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" change this  ->"
+        app:layout_constraintStart_toEndOf="@id/editTxt_2"
+        android:padding="12dp"
+        android:paddingStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtView_1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtView_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" change this  ->"
+        app:layout_constraintStart_toEndOf="@id/editTxt_3"
+        android:padding="12dp"
+        android:paddingStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtView_2">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" change this  ->"
+        app:layout_constraintStart_toEndOf="@id/editTxt_4"
+        android:padding="12dp"
+        android:paddingStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtView_3">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/txtView_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        android:textSize="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtView_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtView_4">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtView_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="data"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtView_5">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtView_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtView_6">
+
+    </TextView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
