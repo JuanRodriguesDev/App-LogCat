@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="player">Include Player</string>
-    <string name="player_name">Player Name</string>
-    <string name="add_player">Include</string>
-
-
-</resources>
