@@ -13,13 +13,3 @@ https://pt.stackoverflow.com/questions/32959/como-alterar-cor-do-background
 dado entre telas 
 https://developer.android.com/guide/navigation/navigation-pass-data?hl=pt-br#start
 https://developer.android.com/training/basics/firstapp/starting-activity?hl=pt-b
-
-
-obs: ignorar os arquivos: 
-MyApplication
-MyApplication2
-MyApplication2logg
-MyApplication3
-MyApplication4
-MyApplicationLogs
-SportClub
